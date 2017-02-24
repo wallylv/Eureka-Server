@@ -8,8 +8,3 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 0
     enableSelfPreservation: false
-
-security:
-  user:
-    name: ${EUREKA_USER_NAME}
-    password: ${EUREKA_PASSWORD}
